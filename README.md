@@ -1,7 +1,6 @@
 # ShadowHash
 
 ## Introduction :
-----------------
 
 As we know on Linux operating systems password are generally stored in "/etc/shadow/" file in specific format and there are some formats.
 Each row in "/etc/shadow" file is a string with 9 fields separated by ':'.
