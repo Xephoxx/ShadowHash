@@ -5,7 +5,7 @@
 As we know on Linux operating systems password are generally stored in "/etc/shadow" file in specific format and there are some formats.
 Each row in "/etc/shadow" file is a string with 9 fields separated by ':'.
 
-### Little example below :
+### Example below :
 
 ```console
 gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1:17354:0:99999:7:::
@@ -31,12 +31,13 @@ The majority of these fields are usually not used by Linux distributions. The mo
 
 
 ## Hash accepted :
-
-1. $1$ : md5
-2. $2a$ : Blowfish
-3. $2y$ : Blowfish, with correct handling of 8 bit characters
-4. $5$ : sha256
-5. $6$ : sha512
+|Number | Value | Hash|
+| -----|:-----:| ---:|
+1 | $1$ | md5
+2 | $2a$ | Blowfish
+3 | $2y$ | Blowfish, with correct handling of 8 bit characters
+4 | $5$ | sha256
+5 | $6$ | sha512
 
 
 ## Simple example with mkpasswd command :
