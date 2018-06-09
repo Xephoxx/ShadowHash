@@ -51,7 +51,7 @@ mkpasswd --method=sha512 --salt=kURThR6P doit0002
 python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 ```
 
-## Test :
+## Proof of Concept :
 
 ```console
 [gituser@localhost ~]$ sudo cat /etc/shadow | grep gituser
