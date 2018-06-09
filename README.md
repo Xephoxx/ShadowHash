@@ -27,7 +27,7 @@ The majority of these fields are usually not used by Linux distributions. The mo
 
 1. Some of these characters represent the cryptographic hash mechanism used to generate the actual hash.
 2. A randomly generated salt to protect against rainbow table attacks.
-3. hash is the result of associating the user's password with the previously stored salt.
+3. The hash is the result of associating the user's password with the previously stored salt.
 
 
 ## Hash accepted :
