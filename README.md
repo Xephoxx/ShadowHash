@@ -57,6 +57,7 @@ python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 [gituser@localhost ~]$ sudo cat /etc/shadow | grep gituser
 gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1:17354:0:99999:7:::
 ```
+
 ```console
 [gituser@localhost ~]$ python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 $6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1
