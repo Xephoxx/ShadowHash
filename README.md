@@ -32,7 +32,7 @@ The majority of these fields are usually not used by Linux distributions. The mo
 
 ## Hash accepted :
 |Number | Value | Hash|
-| -----|:-----:| ---:|
+| -----|:------:|----:|
 1 | $1$ | md5
 2 | $2a$ | Blowfish
 3 | $2y$ | Blowfish, with correct handling of 8 bit characters
