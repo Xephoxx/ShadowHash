@@ -31,13 +31,13 @@ The majority of these fields are usually not used by Linux distributions. The mo
 
 
 ## Hash accepted :
-|Number | Value | Hash|
-| -----|:------:|----:|
-1 | $1$ | md5
-2 | $2a$ | Blowfish
-3 | $2y$ | Blowfish, with correct handling of 8 bit characters
-4 | $5$ | sha256
-5 | $6$ | sha512
+| Value | Hash|
+|:-----:|----:|
+| $1$   | md5 |
+| $2a$  | Blowfish |
+| $2y$  | Blowfish, with correct handling of 8 bit characters |
+| $5$   | sha256 |
+| $6$   | sha512 |
 
 
 ## Simple example with mkpasswd command :
