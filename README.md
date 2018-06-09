@@ -38,20 +38,26 @@ The majority of these fields are usually not used by Linux distributions. The mo
 
 ## Simple example with mkpasswd command :
 
+```console
 mkpasswd --method=sha512 --salt=kURThR6P doit0002
+```
 
 ## Command line :
 
+```console
 python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
-
+```
 
 ## Test :
 
+```console
 [gituser@localhost ~]$ sudo cat /etc/shadow | grep gituser
 gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1:17354:0:99999:7:::
-
+```
+```console
 [gituser@localhost ~]$ python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 $6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1
+```
 
 PS : Special thanks to Hansel
 https://www.aychedee.com/2012/03/14/etc_shadow-password-hash-formats/
