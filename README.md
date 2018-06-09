@@ -5,7 +5,8 @@
 As we know on Linux operating systems password are generally stored in "/etc/shadow/" file in specific format and there are some formats.
 Each row in "/etc/shadow" file is a string with 9 fields separated by ':'.
 
-Little example below :
+### Little example below :
+
 gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1:17354:0:99999:7:::
 
 The nine different fields are :
