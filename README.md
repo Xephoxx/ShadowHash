@@ -51,6 +51,18 @@ mkpasswd --method=sha512 --salt=kURThR6P doit0002
 python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 ```
 
+```console
+python3 -c "import crypt; print (crypt.crypt('doit0002', '\$6\$kURThR6P'))"
+```
+
+```console
+python3.5 -c "import crypt; print (crypt.crypt('doit0002', '\$6\$kURThR6P'))"
+```
+
+```console
+python3.6 -c "import crypt; print (crypt.crypt('doit0002', '\$6\$kURThR6P'))"
+```
+
 ## Proof of Concept :
 
 ```console
