@@ -75,5 +75,4 @@ gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObr
 $6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1
 ```
 
-PS : Special thanks to Hansel :
-https://www.aychedee.com/2012/03/14/etc_shadow-password-hash-formats/
+PS : Thanks to Hansel --> https://www.aychedee.com/2012/03/14/etc_shadow-password-hash-formats/
