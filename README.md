@@ -27,8 +27,7 @@ The majority of these fields are usually not used by Linux distributions. The mo
 3. hash is the result of associating the user's password with the previously stored salt.
 
 
-- Hash accepted :
------------------
+## Hash accepted :
 
 1. $1$ : md5
 2. $2a$ : Blowfish
@@ -37,19 +36,16 @@ The majority of these fields are usually not used by Linux distributions. The mo
 5. $6$ : sha512
 
 
-- Simple example with mkpasswd command :
-----------------------------------------
+## Simple example with mkpasswd command :
 
 mkpasswd --method=sha512 --salt=kURThR6P doit0002
 
-- Command line :
-----------------
+## Command line :
 
 python -c "import crypt; print crypt.crypt('doit0002', '\$6\$kURThR6P')"
 
 
-- Test :
---------
+## Test :
 
 [gituser@localhost ~]$ sudo cat /etc/shadow | grep gituser
 gituser:$6$kURThR6P$YUPkU29r1k2x2zXRU5R6eNYg6/qZv5aIcZreV21Fkgco0Kc609DiWBPlhObrKKqbO9dsU.MrqgpvP0WGU63IV1:17354:0:99999:7:::
